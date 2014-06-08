@@ -17,6 +17,7 @@
       "build" : {
          "requires" : {
             "Capture::Tiny" : "0",
+            "Git::Repository" : "0",
             "Test::Exception" : "0",
             "Test::FailWarnings" : "0",
             "Test::Git" : "0",
@@ -38,7 +39,7 @@
    "provides" : {
       "App::GitHooks::Plugin::RequireTicketID" : {
          "file" : "lib/App/GitHooks/Plugin/RequireTicketID.pm",
-         "version" : "v1.0.2"
+         "version" : "v1.0.3"
       }
    },
    "release_status" : "stable",
@@ -54,5 +55,5 @@
          "url" : "https://github.com/guillaumeaubert/App-GitHooks-Plugin-RequireTicketID"
       }
    },
-   "version" : "v1.0.2"
+   "version" : "v1.0.3"
 }
